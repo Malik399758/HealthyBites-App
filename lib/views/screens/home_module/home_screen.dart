@@ -108,11 +108,11 @@ class _HomeScreenState extends State<HomeScreen> {
     if (_image == null) return;
 
     final newItem = FoodItem(
-      itemName: "Orange",
-      calories: 500,
-      protein: 9.0,
+      itemName: "Tomato",
+      calories: 600,
+      protein: 4.0,
       carbs: 3.0,
-      fats: 6.0,
+      fats: 7.0,
       dateTime: selectedDay,
       imagePath: _image!.path,
       userId: user.uid,
